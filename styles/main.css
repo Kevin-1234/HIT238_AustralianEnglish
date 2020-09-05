@@ -32,6 +32,8 @@
     position: absolute;
     top: 2.5%;
     left: 5%;
+    z-index: 5;
+ 
   }
   .page-title{
    
@@ -82,27 +84,22 @@
     background-color: #1A75CA;
   }
 
-  .card-panel.home{
+  .card-panel.home-card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     border-radius: 8px;
-    padding: 50px;
-    text-align: center;
-    position: relative;
     margin-top: 25%;
-    margin-left: 5%;
-    margin-right: 5%;
+    color: white;
     background-color: #000000;
     opacity: 0.6;
-    
-
-  }
-  .home-btn-title{
-
-    
     font-size: 24px;
     font-weight: 500;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 11rem;
+    
   }
+
 
   .phrase-details{
   
@@ -112,23 +109,101 @@
  
   .phrase-title{
     color: #F8F3F3;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     padding-top: 3%;
     padding-bottom: 3%;
   }
-  .slang-card{
-    margin: 0;
-    padding: 0;
-
+  .slangs .row{
+    margin-left: 8%;
   }
-  .slang-card img{
+  .slang-card{
+    background-repeat: no-repeat;
+    align-content: center;
+    background-size: cover;
+    color: white;
+    height: 7.8rem;
+    width: 7rem;
+    border-radius: 8px;
+    margin-top: 5%;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center; 
+  }
+
+.slang-img{
+  margin-top: 7rem;
+  height: 20%;
+  width: 100%;
+  border-radius: 8px;
+}
+.SD-containter h3{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.SD-containter p{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.audio-btn{
+  background-size: cover;
+  background-image: url('images/Speaker.png');
+  height: 2.5rem;
+  width: 2.5rem;
+  border-style: hidden;
+}
+
+
+
+.home{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  position: absolute;
+  top:0;
+  transition-duration: 0.3s;
+
+}
+
+.phrases{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  opacity: 0;
+  z-index: 0;
+  transition-duration: 0.3s;
+}
+
+
+.slangs{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  opacity: 0;
+  z-index: 0;
+  transition-duration: 0.3s;
+
+}
+.details{
+  z-index: 0;
+  opacity: 0;
+  position: absolute;
+  top:0;
+  transition-duration: 0.3s;
+}
+  /*.slang-card img{
     margin: 0;
     padding: 0;
     display: inline-block;
     width: 100%;
     height: 100%;
-  }
+  }*/
+  
   /* form-styles */
   .bottom-nav{
    
@@ -137,7 +212,9 @@
     width: 100%;
     border-top: 1px solid #1A75CA;
     padding: 5px;
+    z-index: 5;
   }
+  
   
  
  
