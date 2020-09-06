@@ -47,11 +47,11 @@ class AustralianEnglish {
   }
 
   // display the slang name for each slang block in 'slangs' component
-  addSlangNames = (slangList) => {
-      console.log("slangList: " + slangList[0]);
+  addSlangNames = () => {
+      console.log("slangList: " + this.slangData[0]);
       for (let i=0; i<this.slangCards.length; i++){
-        console.log("this.slangData[0]:"+ slangList[0]["slang"]);
-        this.slangCards[i].innerHTML = slangList[i]["slang"]; 
+        console.log("this.slangData[0]:"+ this.slangData[0]["slang"]);
+        this.slangCards[i].innerHTML = this.slangData[i]["slang"]; 
       }
      
 
