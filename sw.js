@@ -7,13 +7,13 @@ const staticCacheName = 'site-static-v1';
 // a list of references for assets that need to be added in to the cache
 const assets = [
   '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/scripts/main.js',
-  '/scripts/js/materialize.min.js',
-  '/styles/main.css',
-  '/styles/css/materialize.min.css',
-  '/assets/images/Icon.png',
+  'index.html',
+  'scripts/app.js',
+  'scripts/main.js',
+  'scripts/js/materialize.min.js',
+  'styles/main.css',
+  'styles/css/materialize.min.css',
+  'assets/images/Icon.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
 ];
