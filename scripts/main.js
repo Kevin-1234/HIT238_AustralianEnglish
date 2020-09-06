@@ -199,7 +199,7 @@ class AustralianEnglish {
       db.onerror = function(e) {
         console.log("ERROR" + e.target.errorCode);
       };
-      /*store.put(
+      store.put(
         {
           slang: "Mash",
           definition: "Potatoes that have been boiled and crushed into a soft mass, often with butter and milk.",
@@ -252,7 +252,7 @@ class AustralianEnglish {
           imageL: "assets/images/L_FlatWhite.png",
           audio: "assets/audios/FlatWhite.mp3"
         }
-      );*/
+      );
       
       
       
