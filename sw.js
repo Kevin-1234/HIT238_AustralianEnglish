@@ -13,7 +13,7 @@ const assets = [
   '/scripts/js/materialize.min.js',
   '/styles/main.css',
   '/styles/css/materialize.min.css',
-  '/images/Icon.png',
+  '/assets/images/Icon.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
 ];
