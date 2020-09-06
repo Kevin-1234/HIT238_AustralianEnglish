@@ -8,7 +8,7 @@ const staticCacheName = 'site-static-v1';
 // local version
 /*const assets = [
   '/',
-  'HIT238_Qingyuan_Zeng/index.html',
+  '/index.html',
   'scripts/app.js',
   'scripts/main.js',
   'scripts/js/materialize.min.js',
@@ -21,7 +21,7 @@ const staticCacheName = 'site-static-v1';
 
 // github version
 const assets = [
-  '/',
+  'HIT238_AustralianEnglish/',
   'HIT238_AustralianEnglish/index.html',
   'HIT238_AustralianEnglish/scripts/app.js',
   'HIT238_AustralianEnglish/scripts/main.js',
