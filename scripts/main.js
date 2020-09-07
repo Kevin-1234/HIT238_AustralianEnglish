@@ -47,7 +47,7 @@ class AustralianEnglish {
   }
 
   // display the slang name for each slang block in 'slangs' component
-  addSlangNames = () => {
+  addSlangNames() {
       console.log("slangList: " + this.slangData[0]);
       for (let i=0; i<this.slangCards.length; i++){
         console.log("this.slangData[0]:"+ this.slangData[0]["slang"]);
@@ -161,7 +161,7 @@ class AustralianEnglish {
   
 
   // initialze IndexDB
-  indexDBInit = () => {
+  indexDBInit() {
     var indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.OIndexedDB || window.msIndexedDB,
         IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.OIDBTransaction || window.msIDBTransaction,
         dbVersion = 1.0;
@@ -199,7 +199,7 @@ class AustralianEnglish {
       db.onerror = function(e) {
         console.log("ERROR" + e.target.errorCode);
       };
-      /*store.put(
+      store.put(
         {
           slang: "Mash",
           definition: "Potatoes that have been boiled and crushed into a soft mass, often with butter and milk.",
@@ -252,7 +252,7 @@ class AustralianEnglish {
           imageL: "assets/images/L_FlatWhite.png",
           audio: "assets/audios/FlatWhite.mp3"
         }
-      );*/
+      );
       
       
       
