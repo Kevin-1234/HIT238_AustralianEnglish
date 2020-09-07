@@ -29,8 +29,8 @@ const staticCacheName = 'site-static-v2';
 
 // github version
 const assets = [
-  '/HIT238_AustralianEnglish/',
-  '/HIT238_AustralianEnglish/index.html',
+  '/',
+  '/index.html',
   '/HIT238_AustralianEnglish/manifest.json',
   '/HIT238_AustralianEnglish/sw.js',
   '/HIT238_AustralianEnglish/scripts/app.js',
