@@ -3,7 +3,7 @@
 
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-v2';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
@@ -16,8 +16,16 @@ const staticCacheName = 'site-static-v1';
   'styles/css/materialize.min.css',
   'assets/images/Icon.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
-  'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
+  'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2',
+  '/assets/images/BackArrow.png',
+  '/assets/images/I_Australia.ico',
+  '/assets/images/L_Avo.png',
+  '/assets/images/L_Banger.png',
+  '/assets/images/L_DeadHorse.png',
+  '/assets/images/L_DogEye.png',
+  '/assets/images/L_FlatWhite.png'
 ];*/
+
 
 // github version
 const assets = [
@@ -67,6 +75,7 @@ const assets = [
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
 ];
+
 
 // install event only fires when service worker has changed 
 self.addEventListener('install', evt => {
