@@ -5,6 +5,7 @@ class AustralianEnglish {
     this.slangs = document.querySelector('.slangs');
     this.slangCards = document.querySelectorAll('.slang-card');
     this.phrases = document.querySelector('.phrases');
+    this.phrase = document.querySelectorAll('.phrase');
     this.phraseCards = document.querySelectorAll('.phrase-card');
     this.details = document.querySelector('.details');
     this.detailImage = document.querySelector('.detail-img');
@@ -108,10 +109,10 @@ class AustralianEnglish {
   }
 
   listenPhraseCards(){
-    for (let i=0; i<this.phraseCards.length; i++){
+    for (let i=0; i<this.phrase.length; i++){
       
-      let phraseTitle = this.phraseCards[i].innerHTML;
-      this.phraseCards[i].addEventListener('click', () => {
+      let phraseTitle = this.phrase[i].innerHTML;
+      this.phrase[i].addEventListener('click', () => {
         this.goDetails(phraseTitle);
 
       })
