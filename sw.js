@@ -21,14 +21,14 @@ const staticCacheName = 'site-static-v1';
 
 // github version
 const assets = [
-  'HIT238_AustralianEnglish/',
-  'HIT238_AustralianEnglish/index.html',
-  'HIT238_AustralianEnglish/scripts/app.js',
-  'HIT238_AustralianEnglish/scripts/main.js',
-  'HIT238_AustralianEnglish/scripts/js/materialize.min.js',
-  'HIT238_AustralianEnglish/styles/main.css',
-  'HIT238_AustralianEnglish/styles/css/materialize.min.css',
-  'HIT238_AustralianEnglish/assets/images/Icon.png',
+  '/HIT238_AustralianEnglish/',
+  '/HIT238_AustralianEnglish/index.html',
+  '/HIT238_AustralianEnglish/scripts/app.js',
+  '/HIT238_AustralianEnglish/scripts/main.js',
+  '/HIT238_AustralianEnglish/scripts/js/materialize.min.js',
+  '/HIT238_AustralianEnglish/styles/main.css',
+  '/HIT238_AustralianEnglish/styles/css/materialize.min.css',
+  '/HIT238_AustralianEnglish/assets/images/Icon.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
 ];
