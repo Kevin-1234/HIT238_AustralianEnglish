@@ -5,28 +5,24 @@
     <meta name="Description" content="This is the place where you can learn Australian English">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Australian English </title>
-    <link type="text/css" href="styles/css/materialize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
     <link type="text/css" href="styles/main.css" rel="stylesheet">
-    <script type="text/javascript" src="scripts/js/materialize.min.js"></script>
+    <script src="scripts/vendor/materialize.min.js"></script>
     <link rel="manifest" href="manifest.json">
     <!-- ios icon support-->
-    <link rel="apple-touch-icon" href="images/Icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
     <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
     <meta name="theme-color" content="#FFE1C4">
   </head>
   <body>
-    <!-- The arrow to go back previous page -->
-    <div class="back-arrow">
-      <img src="assets/images/BackArrow.png">
-    </div> 
-
+    <!-- The arrow to go back previous page -->  
+    <img class="back-arrow" src="assets/images/backarrow.png" alt="Go back">
+     
     <!-- Home component -->
     <div class="home home-background">
       <div class="page-title">
         <h1 class="center-align hp-title white-text">
           Australian English
-          <span><img src="assets/images/AE-Icon-24x24.png"></span>
+          <img src="assets/images/AE-Icon-192x192.png" alt="Logo">
         </h1>
       </div>
       <div class="container">
@@ -42,27 +38,27 @@
       </div> 
       <div class="container ">
         <div class="row">
-          <div class="col s5 teal z-depth-3 slang-card waves-effect"></div>
-          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect" ></div>
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
         </div>
         <div class="row">
-          <div class="col s5 teal z-depth-3 slang-card waves-effect"></div>
-          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect" ></div>
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
         </div>
         <div class="row">
-          <div class="col s5 teal z-depth-3 slang-card waves-effect"></div>
-          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect" ></div>
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
         </div>
       </div> 
     </div>
 
-
     <!-- Details component: it is used to show the details of a slang or a phrase -->
+    <!-- The contents of this page will be dynamically changed by Javascript -->
     <div class="details">
-      <div class="container SD-containter">
-        <img class="detail-img">
-        <h3 class="detail-title"></h3>
-        <button class="audio-btn waves-effect waves-light"></button>
+      <div class="container details-container">
+        <img src="assets/images/l_avo.png" class="detail-img" alt="Image">
+        <h3 class="detail-title">Detail Title</h3>
+        <div class="audio-btn waves-effect waves-light"></div>
         <p class="detail-definition"></p>
       </div>  
     </div> 
@@ -74,29 +70,19 @@
       </div> 
       <div class="container grey-text text-darken-1">
         <div class="card-panel phrase row">
-          <div class="phrase-details  waves-effect waves-teal">
-            <div class="phrase-card"></div>
-          </div>
+          <div class="phrase-card"></div>
         </div>
         <div class="card-panel phrase row">
-          <div class="phrase-details waves-effect waves-teal">
-            <div class="phrase-card"></div>
-          </div>
+          <div class="phrase-card"></div>
         </div>
         <div class="card-panel phrase row">
-          <div class="phrase-details waves-effect waves-teal">
-            <div class="phrase-card"></div>
-          </div>
+          <div class="phrase-card"></div>
         </div>
         <div class="card-panel phrase row">
-          <div class="phrase-details waves-effect waves-teal">
-            <div class="phrase-card"></div>
-          </div>
+          <div class="phrase-card"></div>
         </div>
         <div class="card-panel phrase row">
-          <div class="phrase-details waves-effect waves-teal">
-            <div class="phrase-card"></div>
-          </div>
+          <div class="phrase-card"></div>
         </div>
       </div>
     </div>
@@ -106,12 +92,8 @@
         <i class="material-icons home-btn home-btn-title">account_balance</i>
         <div class="black-text">Home</div>
     </div>
-  
 
-   
-
+    <script src="scripts/app.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
-  <script src="scripts/app.js"></script>
-  <script src="scripts/main.js"></script>
-  
 </html>
