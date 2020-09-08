@@ -3,7 +3,7 @@
 
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-v1.2';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
@@ -77,7 +77,7 @@ const assets = [
   '/HIT238_AustralianEnglish/assets/audios/dogeye.mp3',
   '/HIT238_AustralianEnglish/assets/audios/flatwhite.mp3',
   '/HIT238_AustralianEnglish/assets/audios/mash.mp3',
-  '/HIT238_AustralianEnglish/styles/images/HomeBg.jpg',
+  '/HIT238_AustralianEnglish/styles/images/homebackground.jpg',
   '/HIT238_AustralianEnglish/styles/images/speaker.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2'
