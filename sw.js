@@ -3,7 +3,7 @@
 
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
-const staticCacheName = 'site-static-v1.35';
+const staticCacheName = 'site-static-v1.45';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
