@@ -4,7 +4,7 @@
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
 // notice if any of the items' url in the assets goes wrone, caching will be unsuccessful 
-const staticCacheName = 'site-static-v1.4';
+const staticCacheName = 'site-static-v1.5';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
