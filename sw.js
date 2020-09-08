@@ -3,7 +3,7 @@
 
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
-const staticCacheName = 'site-static-v1.45';
+const staticCacheName = 'site-static-v1';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
@@ -31,7 +31,7 @@ const staticCacheName = 'site-static-v1.45';
 
 // github version
 const assets = [
-  'HIT238_AustralianEnglish/',
+  '/HIT238_AustralianEnglish/',
   '/HIT238_AustralianEnglish/index.html',
   '/HIT238_AustralianEnglish/manifest.json',
   '/HIT238_AustralianEnglish/sw.js',
