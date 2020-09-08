@@ -3,7 +3,8 @@
 
 // when assets get updated, cache should also be updated
 // update cache name when updating the cache
-const staticCacheName = 'site-static-v1.2';
+// notice if any of the items' url in the assets goes wrone, caching will be unsuccessful 
+const staticCacheName = 'site-static-v1.4';
 // a list of references for assets that need to be added in to the cache
 // local version
 /*const assets = [
@@ -40,6 +41,7 @@ const assets = [
   '/HIT238_AustralianEnglish/scripts/vendor/materialize.min.js',
   '/HIT238_AustralianEnglish/styles/main.css',
   '/HIT238_AustralianEnglish/styles/vendor/materialize.min.css',
+  '/HIT238_AustralianEnglish/styles/vendor/materialize.css',
   '/HIT238_AustralianEnglish/assets/images/icon.png',
   '/HIT238_AustralianEnglish/assets/images/ae-icon-18x18.png',
   '/HIT238_AustralianEnglish/assets/images/ae-icon-24x24.png',
