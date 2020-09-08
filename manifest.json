@@ -1,7 +1,7 @@
 {
     "name": "Australian English",
     "short_name": "AustralianEnglish",
-    "start_url": "/index.html",
+    "start_url": "/HIT238_AustralianEnglish/index.html",
     "display": "standalone",
     "background_color": "#FFE9D2",
     "theme_color": "#FFE1C4",
